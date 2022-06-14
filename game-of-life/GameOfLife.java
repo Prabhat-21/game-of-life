@@ -39,8 +39,8 @@ class GameOfLife
     public static void main(String[] args) {
 
         // test the game of life implementation
-        GameOfLife gof = new GameOfLife();
-        gof.test(1);
+        GameOfLife Gof = new GameOfLife();
+        Gof.test(1);
     }
 
 
@@ -86,7 +86,7 @@ class GameOfLife
         }
 
         
-        printBoard(board);
+        
 
         for (int i = 0 ; i < nrIterations ; i++) {
             System.out.println();
